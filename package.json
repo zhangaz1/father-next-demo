@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "father-next"
+  },
   "devDependencies": {
     "father-next": "^3.0.0-alpha.1"
   }
