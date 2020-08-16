@@ -1,2 +1,6 @@
+import bar from './bar';
 
-console.log('hello world');
+export default function () {
+	const result = bar();
+	console.log(result);
+};

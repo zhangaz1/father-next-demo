@@ -1,5 +1,18 @@
 export default {
 	platform: 'browser',
 	bundler: true,
-	formats: ['cjs', 'esm', 'umd']
+	formats: [
+		['cjs', {
+			entryPoints: {
+				'src/index.ts': {},
+			}
+		}],
+		'esm',
+		'umd'
+	],
+	// formats: {
+	// 	umd: {
+	// 		minFile: true,
+	// 	},
+	// },
 }
